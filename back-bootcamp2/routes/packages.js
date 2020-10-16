@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Package, Passenger } = require("../models");
+const { Passenger } = require("../models");
 const cors = require("cors");
 
 router.post("/", cors(), (req, res) => {
